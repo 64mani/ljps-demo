@@ -11,17 +11,21 @@ import { PrincipalComponent } from './principal/principal.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { NoticeComponent } from './notice/notice.component';
 import { HomeworkComponent } from './homework/homework.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { WingComponent } from './wing/wing.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/homePage', pathMatch: 'full' },
   { pathMatch: 'full', path: 'homePage', component: HomePageComponent },
   { pathMatch: 'full', path: 'admission', component: AdmissionComponent },
-  { pathMatch: 'full', path: 'house', component: HouseComponent},
-  { pathMatch: 'full', path: 'director', component: DirectorComponent},
-  { pathMatch: 'full', path: 'principal', component: PrincipalComponent},
-  { pathMatch: 'full', path: 'aboutUs', component: AboutUsComponent},
-  { pathMatch: 'full', path: 'notice', component: NoticeComponent},
-  { pathMatch: 'full', path: 'homework', component: HomeworkComponent},
+  { pathMatch: 'full', path: 'house', component: HouseComponent },
+  { pathMatch: 'full', path: 'director', component: DirectorComponent },
+  { pathMatch: 'full', path: 'principal', component: PrincipalComponent },
+  { pathMatch: 'full', path: 'aboutUs', component: AboutUsComponent },
+  { pathMatch: 'full', path: 'notice', component: NoticeComponent },
+  { pathMatch: 'full', path: 'homework', component: HomeworkComponent },
+  { pathMatch: 'full', path: 'gallery', component: GalleryComponent },
+  { pathMatch: 'full', path: 'wing', component: WingComponent },
 ];
 @NgModule({
   declarations: [
@@ -33,7 +37,9 @@ const appRoutes: Routes = [
     PrincipalComponent,
     AboutUsComponent,
     NoticeComponent,
-    HomeworkComponent
+    HomeworkComponent,
+    GalleryComponent,
+    WingComponent
   ],
   imports: [
     BrowserModule,
