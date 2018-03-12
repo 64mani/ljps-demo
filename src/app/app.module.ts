@@ -10,6 +10,7 @@ import { DirectorComponent } from './director/director.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { NoticeComponent } from './notice/notice.component';
+import { HomeworkComponent } from './homework/homework.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/homePage', pathMatch: 'full' },
@@ -19,6 +20,8 @@ const appRoutes: Routes = [
   { pathMatch: 'full', path: 'director', component: DirectorComponent},
   { pathMatch: 'full', path: 'principal', component: PrincipalComponent},
   { pathMatch: 'full', path: 'aboutUs', component: AboutUsComponent},
+  { pathMatch: 'full', path: 'notice', component: NoticeComponent},
+  { pathMatch: 'full', path: 'homework', component: HomeworkComponent},
 ];
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ const appRoutes: Routes = [
     DirectorComponent,
     PrincipalComponent,
     AboutUsComponent,
-    NoticeComponent
+    NoticeComponent,
+    HomeworkComponent
   ],
   imports: [
     BrowserModule,
