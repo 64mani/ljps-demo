@@ -7,6 +7,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { HouseComponent } from './house/house.component';
 import { DirectorComponent } from './director/director.component';
+import { PrincipalComponent } from './principal/principal.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { NoticeComponent } from './notice/notice.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/homePage', pathMatch: 'full' },
@@ -14,6 +17,8 @@ const appRoutes: Routes = [
   { pathMatch: 'full', path: 'admission', component: AdmissionComponent },
   { pathMatch: 'full', path: 'house', component: HouseComponent},
   { pathMatch: 'full', path: 'director', component: DirectorComponent},
+  { pathMatch: 'full', path: 'principal', component: PrincipalComponent},
+  { pathMatch: 'full', path: 'aboutUs', component: AboutUsComponent},
 ];
 @NgModule({
   declarations: [
@@ -21,7 +26,10 @@ const appRoutes: Routes = [
     HomePageComponent,
     AdmissionComponent,
     HouseComponent,
-    DirectorComponent
+    DirectorComponent,
+    PrincipalComponent,
+    AboutUsComponent,
+    NoticeComponent
   ],
   imports: [
     BrowserModule,
