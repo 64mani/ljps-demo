@@ -193,3 +193,28 @@ img {
     font-size: 18px;
     margin-left: 5px;
 }
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-item {
+        padding: 0px;
+        font-size: 18px;
+    }
+    
+    .noticeBoard_Container {
+        margin-top: 20px;
+    }
+    .noticeImage,
+    .homeworkImage {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .socialContainer {
+        margin-top: 30px;
+    }
+    .footerContainer p {
+        margin-top: -20px;
+    }
+    #copy {
+        margin-top: 30px;
+    }
+}

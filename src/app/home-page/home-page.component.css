@@ -3,3 +3,13 @@
     height: 700px;
 }
 
+@media (max-width: 991px) {
+   
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+    .sliderContainer {
+        margin-top: 20px;
+    }
+}
