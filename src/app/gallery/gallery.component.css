@@ -1,0 +1,33 @@
+.galleryContainer h1{
+    text-align:center;
+    color:white;
+    font-size: 60px;
+    font-family: 'BebasNeue';
+    line-height: 68px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+#sidebar .sidemenu ul{
+    list-style: none;
+}
+#sidebar .sidemenu a {
+    border: 1px solid #d7dbe1;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 8px;
+    height: 45px;
+    line-height: 43px;
+    padding: 0 0 0 15px;
+    font-family: 'BebasNeue';
+    color: #7e8798;
+    font-size: 24px;
+    position: relative;
+}
+#sidebar .sidemenu a:hover{
+    text-decoration: none;
+    background-color: #008bc4;
+}
+
+a[href]{
+    cursor: pointer;
+}

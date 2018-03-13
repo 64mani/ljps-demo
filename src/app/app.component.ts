@@ -11,7 +11,9 @@ declare var $: any;
 export class AppComponent implements OnInit {
   ngOnInit() {
    
-   
+    $('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
+      $(this).parents('.navbar-collapse').collapse('hide');
+  });
   }
 
 }
