@@ -113,4 +113,8 @@
 	.bxslider{
 		margin-left: 0px;
 	}
+	#sidebar .sidemenu a .nr {
+		margin-left: 0px;
+		width:23px;
+	}
 }
