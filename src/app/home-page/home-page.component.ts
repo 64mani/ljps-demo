@@ -12,6 +12,7 @@ export class HomePageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $('.navbar-collapse').collapse('hide');
     
     $('.carousel').carousel({
       interval: 2000
