@@ -99,7 +99,7 @@
 .rightContainer{
     margin-top: 120px;
 }
-.bxslider{
+.bxslider_prize{
 	margin-left: 24px;
 	background-color: #7E354D;
 }
@@ -110,7 +110,7 @@
     #sidebar .sidemenu a {
         font-size:14px;
 	}
-	.bxslider{
+	.bxslider_prize{
 		margin-left: 0px;
 	}
 }

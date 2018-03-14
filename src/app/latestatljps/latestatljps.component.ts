@@ -1,32 +1,31 @@
 import { Component, OnInit } from '@angular/core';
-declare var $: any;
+declare var $:any;
 
 @Component({
-  selector: 'app-gallery',
-  templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+  selector: 'app-latestatljps',
+  templateUrl: './latestatljps.component.html',
+  styleUrls: ['./latestatljps.component.css']
 })
-export class GalleryComponent implements OnInit {
+export class LatestatljpsComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
-
     $(document).ready(function () {
-      $('.bxslider').bxSlider({
+      $('.bxslider_ljps').bxSlider({
         minSlides: 3,
         maxSlides:3,
         slideWidth:450,
         slideMargin: 10,
         controls: false,
       });
-      
-      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+     
+      $(document).on('click', '[data-toggle="lightbox_ljps"]', function (event) {
         event.preventDefault();
         $(this).ekkoLightbox().destroy();
         $(this).ekkoLightbox();
       });
-    
+      
     })
   }
 

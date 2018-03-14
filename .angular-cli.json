@@ -20,11 +20,16 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/ekko-lightbox/dist/ekko-lightbox.css",
+        "../node_modules/bxslider/dist/jquery.bxslider.css",
         "styles.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/ekko-lightbox/dist/ekko-lightbox.js",
+        "../node_modules/isotope-layout/dist/isotope.pkgd.js",
+        "../node_modules/bxslider/dist/jquery.bxslider.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

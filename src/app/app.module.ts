@@ -13,6 +13,9 @@ import { NoticeComponent } from './notice/notice.component';
 import { HomeworkComponent } from './homework/homework.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { WingComponent } from './wing/wing.component';
+import { PrizeComponent } from './prize/prize.component';
+import { AssemblyComponent } from './assembly/assembly.component';
+import { LatestatljpsComponent } from './latestatljps/latestatljps.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/homePage', pathMatch: 'full' },
@@ -26,6 +29,9 @@ const appRoutes: Routes = [
   { pathMatch: 'full', path: 'homework', component: HomeworkComponent },
   { pathMatch: 'full', path: 'gallery', component: GalleryComponent },
   { pathMatch: 'full', path: 'wing', component: WingComponent },
+  { pathMatch: 'full', path: 'prize', component:PrizeComponent },
+  { pathMatch: 'full', path: 'assembly', component: AssemblyComponent },
+  { pathMatch: 'full', path: 'latestatljps', component: LatestatljpsComponent},
 ];
 @NgModule({
   declarations: [
@@ -39,7 +45,10 @@ const appRoutes: Routes = [
     NoticeComponent,
     HomeworkComponent,
     GalleryComponent,
-    WingComponent
+    WingComponent,
+    PrizeComponent,
+    AssemblyComponent,
+    LatestatljpsComponent
   ],
   imports: [
     BrowserModule,
