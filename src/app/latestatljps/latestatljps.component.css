@@ -95,7 +95,10 @@
     height: 20px;
     background-color: black;
 }
-
+.galleryContainer p{
+	color: white;
+	font-size: 16px;
+}
 .rightContainer{
     margin-top: 120px;
 }
@@ -112,5 +115,8 @@
 	}
 	.bxslider_ljps{
 		margin-left: 0px;
+	}
+	.galleryContainer h1{
+		font-size: 34px;
 	}
 }

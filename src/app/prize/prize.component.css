@@ -90,7 +90,10 @@
     display: block;
    border-radius: 10px;
 }
-
+.galleryContainer p{
+	color: white;
+	font-size: 16px;
+}
 .blackContainer{
     height: 20px;
     background-color: black;
@@ -113,4 +116,8 @@
 	.bxslider_prize{
 		margin-left: 0px;
 	}
+	.galleryContainer h1{
+		font-size: 34px;
+	}
+
 }

@@ -19,6 +19,7 @@ export class GalleryComponent implements OnInit {
         slideWidth:450,
         slideMargin: 10,
         controls: false,
+        touchEnabled:false
       });
       
       $(document).on('click', '[data-toggle="lightbox"]', function (event) {

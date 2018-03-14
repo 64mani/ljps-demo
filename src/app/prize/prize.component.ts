@@ -17,6 +17,7 @@ export class PrizeComponent implements OnInit {
         slideWidth:450,
         slideMargin: 10,
         controls: false,
+        touchEnabled:false
       });
      
       $(document).on('click', '[data-toggle="lightbox_prize"]', function (event) {

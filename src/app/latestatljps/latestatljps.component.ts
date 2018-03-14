@@ -13,11 +13,12 @@ export class LatestatljpsComponent implements OnInit {
   ngOnInit() {
     $(document).ready(function () {
       $('.bxslider_ljps').bxSlider({
-        minSlides: 3,
+        minSlides:3,
         maxSlides:3,
-        slideWidth:450,
+        slideWidth:800,
         slideMargin: 10,
         controls: false,
+        touchEnabled:false
       });
      
       $(document).on('click', '[data-toggle="lightbox_ljps"]', function (event) {

@@ -14,11 +14,12 @@ export class AssemblyComponent implements OnInit {
   ngOnInit() {
     $(document).ready(function () {
       $('.bxslider_assembly').bxSlider({
-        minSlides: 4,
-        maxSlides:4,
+        minSlides: 3,
+        maxSlides:3,
         slideWidth:450,
         slideMargin: 10,
         controls: false,
+        touchEnabled:false
       });
       
       $(document).on('click', '[data-toggle="lightbox_assembly"]', function (event) {
