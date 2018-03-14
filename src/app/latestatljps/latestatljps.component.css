@@ -119,4 +119,8 @@
 	.galleryContainer h1{
 		font-size: 34px;
 	}
+	#sidebar .sidemenu a .nr {
+		margin-left: 0px;
+		width:23px;
+	}
 }

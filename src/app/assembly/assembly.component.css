@@ -117,6 +117,10 @@
 		margin-left: 0px;
 	}
 	.galleryContainer h1{
-		font-size: 28px;
+		font-size: 25px;
+	}
+	#sidebar .sidemenu a .nr {
+		margin-left: 0px;
+		width:23px;
 	}
 }
